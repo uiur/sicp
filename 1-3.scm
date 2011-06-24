@@ -1,0 +1,6 @@
+(define (square x) (* x x))
+(define (square-sum x y) (+ (square x) (square y)))
+(define (two-squares x y z) (cond ((and (>= x z) (>= y z)) (square-sum x y))
+                                  ((and (>= y x) (>= z x)) (square-sum y z))
+                                  ((and (>= z y) (>= x y)) (square-sum z x))
+                            ))

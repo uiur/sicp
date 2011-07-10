@@ -1,0 +1,2 @@
+normal-order ではtestが展開されて0が返される
+applicative-order では引数が先に評価されるので(p)が評価されて無限にループする

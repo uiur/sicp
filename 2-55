@@ -1,0 +1,6 @@
+''abracadabra
+は評価されると
+(quote (quote abracadabra))
+となるから、carの引数は
+(quote abracadabra)
+になる。よってquoteが返ってくる

@@ -9,6 +9,3 @@
 (define (f-iter a b c count)
  (if (= count 2) a
  (f-iter (+ a (* 2 b) (* 3 c)) a b (- count 1))))
-
-(print (f 10))
-(print (f2 10))

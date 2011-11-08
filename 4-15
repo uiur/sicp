@@ -1,0 +1,4 @@
+(try try)が停止すると仮定すると, (halts? try try)は真であるから(run-forever)が実行されて停止しない.
+(try try)が停止しないと仮定すると, (halts? try try)は偽であるから'haltedが返って停止する.
+いずれの場合も矛盾する.
+よって,halts?を書くことはできない.

@@ -1,0 +1,2 @@
+n=1のときでも(* 1 (factorial 0))が評価されて停止しなくなる
+normal-orderなら動く

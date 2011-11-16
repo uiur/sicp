@@ -1,0 +1,11 @@
+- memoize
+(square (id 10))
+100
+count
+1
+
+- not memoize
+(square (id 10))
+100
+count
+2
